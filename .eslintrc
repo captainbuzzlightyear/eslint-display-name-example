@@ -1,0 +1,38 @@
+{
+  "extends": ["plugin:react/recommended"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "react/destructuring-assignment": "off",
+    "react/jsx-key": "warn",
+    "react/jsx-pascal-case": "warn",
+    "react/no-access-state-in-setstate": "warn",
+    "react/no-deprecated": "warn",
+    "react/no-direct-mutation-state": "warn",
+    "react/no-find-dom-node": "warn",
+    "react/no-string-refs": "warn",
+    "react/no-this-in-sfc": "error",
+    "react/no-typos": "error",
+    "react/no-unescaped-entities": "warn",
+    "react/no-unknown-property": "error",
+    "react/prefer-stateless-function": "warn",
+    "react/prop-types": "warn",
+    "react/react-in-jsx-scope": "error",
+    "react/require-render-return": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "16.4.1"
+    }
+  }
+}
